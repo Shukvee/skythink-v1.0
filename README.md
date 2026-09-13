@@ -69,6 +69,19 @@ python scripts/infer_images.py \
 
 The script supports PNG, JPG, JPEG, and WebP inputs and writes one response per image.
 
+## Released LoRA adapter
+
+The final LoRA adapter is published under `models/SkyThink-v1/checkpoint-19884/` through Git LFS. Clone the repository with Git LFS enabled and retrieve the weight file before inference:
+
+```bash
+git lfs install
+git clone https://github.com/Shukvee/skythink-v1.0.git
+cd skythink-v1.0
+git lfs pull
+```
+
+Use the adapter directory as the `--adapter` value in `scripts/infer_images.py`. The Qwen3-VL base model is not redistributed here; obtain it separately under its own license.
+
 ## Data and benchmark
 
 SkyBrain records use chat-style `messages`, an optional `images` list, and a `task` label (`text`, `image`, or `math`). The local RSEdu-Bench release contains 2,198 records. Details, including why data are not redistributed here, are in [docs/DATASET.md](docs/DATASET.md).
