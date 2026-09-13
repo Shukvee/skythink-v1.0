@@ -2,7 +2,7 @@
 
 SkyThink-v1 is a multimodal large language model (MLLM) for undergraduate Remote Sensing (RS) education. It is built around SkyBrain, a 1M+ entry educational corpus spanning language, vision-language, and mathematical-language tasks, and a Collaborative Adaptive Training Framework that uses adaptive gradient modulation to reduce negative transfer between tasks.
 
-The accompanying evaluation suite, **RSEdu-Bench**, is derived from and expanded with authoritative RS exercises to cover undergraduate RS curricula. In the paper's reported experiments, SkyThink-v1 exceeded GPT-5 on RSEdu-Bench by **8.40 percentage points** in average accuracy.
+The accompanying evaluation suite, **RSEdu-Bench**, is derived from and expanded with authoritative RS exercises to cover undergraduate RS curricula. SkyThink-v1 performed well ong the bench.
 
 ## What this repository provides
 
