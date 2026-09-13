@@ -203,6 +203,19 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Local model, data, and experiment artifacts
+model/
+Qwen3-VL-32B-pretrain/
+RSEdata/
+checkpoints/
+outputs/
+runs/
+*.safetensors
+*.pt
+*.pth
+trainer_state.json
+logging.jsonl
+
 # Ruff stuff:
 .ruff_cache/
 

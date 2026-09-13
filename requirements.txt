@@ -1,0 +1,7 @@
+# Install a PyTorch build that matches the local CUDA runtime before installing these packages.
+torch
+transformers
+accelerate
+deepspeed
+ms-swift>=4.0.0
+peft
