@@ -61,7 +61,7 @@ bash scripts/train_lora.sh
 ```bash
 python scripts/infer_images.py \
   --base-model /path/to/Qwen3-VL-32B-pretrain \
-  --adapter /path/to/checkpoint-19884 \
+  --adapter /path/to/SkyThink-v1 \
   --input-dir /path/to/images \
   --output-file outputs/image_predictions.txt \
   --prompt "Please explain the image from a remote-sensing perspective."
@@ -71,7 +71,7 @@ The script supports PNG, JPG, JPEG, and WebP inputs and writes one response per 
 
 ## Released LoRA adapter
 
-The final LoRA adapter is published under `models/SkyThink-v1/checkpoint-19884/` through Git LFS. Clone the repository with Git LFS enabled and retrieve the weight file before inference:
+The final LoRA adapter is published directly under `models/SkyThink-v1/` through Git LFS. Clone the repository with Git LFS enabled and retrieve the weight file before inference:
 
 ```bash
 git lfs install

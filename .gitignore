@@ -217,7 +217,7 @@ trainer_state.json
 logging.jsonl
 
 # The final released LoRA adapter is intentionally versioned through Git LFS.
-!models/SkyThink-v1/checkpoint-19884/adapter_model.safetensors
+!models/SkyThink-v1/adapter_model.safetensors
 
 # Ruff stuff:
 .ruff_cache/
