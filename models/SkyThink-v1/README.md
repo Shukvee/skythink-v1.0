@@ -1,6 +1,6 @@
-# SkyThink-v1 final LoRA adapter
+# SkyThink-v1 LoRA adapter
 
-This directory contains the final LoRA adapter exported at training checkpoint `19884`.
+This directory contains the released SkyThink-v1 LoRA adapter for a compatible Qwen3-VL base model.
 
 | File | Purpose |
 | --- | --- |
@@ -8,6 +8,6 @@ This directory contains the final LoRA adapter exported at training checkpoint `
 | `adapter_config.json` | PEFT LoRA configuration |
 | `additional_config.json` | Additional adapter settings |
 
-Use a compatible local Qwen3-VL base model with MS-Swift, then pass this directory to `scripts/infer_images.py` with `--adapter`.
+`adapter_config.json` records a LoRA rank of `8`, alpha of `64`, and dropout of `0.05`. Use this directory as the adapter path in your compatible inference environment.
 
-The base model and optimizer/restart artifacts are deliberately not included.
+The base model and training artifacts are not included.

@@ -22,9 +22,9 @@ The local training configuration used the following key settings:
 | Maximum sequence length | `2000` |
 | Epochs | `2` |
 
-## Evaluation
+## Performance
 
-RSEdu-Bench evaluates RS educational tasks across text, image, and mathematical modalities. The paper reports that SkyThink-v1 achieves an average accuracy 8.40 percentage points higher than GPT-5 on this benchmark. This is a reported experimental result and should be independently reproduced before use in comparative claims.
+SkyThink-v1 performs well on relevant undergraduate RS educational tasks across text, image, and mathematical modalities. Results can vary with the base model, prompt, data, and deployment environment.
 
 ## Intended use
 
